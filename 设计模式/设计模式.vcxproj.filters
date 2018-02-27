@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="单例模式">
+      <UniqueIdentifier>{163a7f5d-d1e9-40ac-8a25-d8c4ed0b48af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="单例模式\非线程安全的懒汉式">
+      <UniqueIdentifier>{f3fafa4d-6a74-4542-8073-f0486eaf79c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main函数">
+      <UniqueIdentifier>{3aecea93-86cf-48ea-81cf-945803212aa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="单例模式\线程安全的懒汉式">
+      <UniqueIdentifier>{cf8c70b3-2b99-4aaf-8211-afd5e35cbe00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="单例模式\线程安全的懒汉式2">
+      <UniqueIdentifier>{ee0dac6f-cd3e-46ce-ac64-ede48749a42c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="单例模式\线程安全的饿汉式">
+      <UniqueIdentifier>{307b785e-4ae5-4762-add9-de4e50de4929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="工厂模式">
+      <UniqueIdentifier>{22551a0f-d41f-4395-814b-547e5656d8b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="工厂模式\简单工厂">
+      <UniqueIdentifier>{2f56064c-690e-4374-8c7b-74da38eea4a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="工厂模式\工厂方法">
+      <UniqueIdentifier>{15d62bb6-d89e-4d99-9c37-ce062aae6b81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="工厂模式\抽象工厂">
+      <UniqueIdentifier>{7169d2dd-8c04-4aab-875a-e7ebffc680af}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main函数</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Singleton1.h">
+      <Filter>单例模式\非线程安全的懒汉式</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton2.h">
+      <Filter>单例模式\线程安全的懒汉式</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton3.h">
+      <Filter>单例模式\线程安全的懒汉式2</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton4.h">
+      <Filter>单例模式\线程安全的饿汉式</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory1.h">
+      <Filter>工厂模式\简单工厂</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory2.h">
+      <Filter>工厂模式\工厂方法</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory3.h">
+      <Filter>工厂模式\抽象工厂</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
