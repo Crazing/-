@@ -47,5 +47,6 @@ int main()
 
     CSingleton4 *instance4 = CSingleton4::getInstance();
     instance4->print();
+
     return 0;
 }
