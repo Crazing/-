@@ -11,6 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="builder.h" />
     <ClInclude Include="Factory1.h" />
     <ClInclude Include="Factory2.h" />
     <ClInclude Include="Factory3.h" />

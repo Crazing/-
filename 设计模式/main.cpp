@@ -6,10 +6,21 @@
 #include"Factory1.h"
 #include"Factory2.h"
 #include"Factory3.h"
+#include"builder.h"
 using namespace std;
 
 int main()
 {
+	//建造者模式
+	Assemble *assembleA = new AssembleCarA();
+	Factory *factoryA = new Factory(assembleA);
+	factoryA->assembleCar();
+	factoryA->getCar()->disPlay();
+	Assemble *assembleB = new AssembleCarB();
+	Factory *factoryB = new Factory(assembleB);
+	factoryB->assembleCar();
+	factoryB->getCar()->disPlay();
+
     //工厂模式
     Factory1 fact1;
     SingleCore1* coreA1 = fact1.CreateSingleCore(COREA1);

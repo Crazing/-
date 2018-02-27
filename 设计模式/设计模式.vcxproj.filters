@@ -31,6 +31,9 @@
     <Filter Include="工厂模式\抽象工厂">
       <UniqueIdentifier>{7169d2dd-8c04-4aab-875a-e7ebffc680af}</UniqueIdentifier>
     </Filter>
+    <Filter Include="建造者模式">
+      <UniqueIdentifier>{a2ef43fa-2903-4593-8dec-ad22cf9bf422}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -58,6 +61,9 @@
     </ClInclude>
     <ClInclude Include="Factory3.h">
       <Filter>工厂模式\抽象工厂</Filter>
+    </ClInclude>
+    <ClInclude Include="builder.h">
+      <Filter>建造者模式</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
