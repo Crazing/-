@@ -8,10 +8,18 @@
 #include"Factory3.h"
 #include"builder.h"
 #include"prototype.h"
+#include"Adapter1.h"
+#include"Adapter2.h"
 using namespace std;
 
 int main()
 {
+	//适配器模式
+	Target1 *t1 = new Adapter1();
+	t1->Request();
+	Target2 *t2 = new Adapter2();
+	t2->Request();
+
     //原型模式
     prototype* proto1 = new concreateprototype1();
     proto1->clone();

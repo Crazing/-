@@ -37,6 +37,15 @@
     <Filter Include="原型模式">
       <UniqueIdentifier>{67dd9666-ba4c-4c11-bdf3-ddc490a6752e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="适配器模式">
+      <UniqueIdentifier>{d7681e6a-e32e-4720-9a40-76adc4c33d90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="适配器模式\类适配器模式">
+      <UniqueIdentifier>{4f3e4c5a-2da2-4ff3-bc77-eca9b88bad48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="适配器模式\对象适配器模式">
+      <UniqueIdentifier>{ce2da0a9-9563-418f-8f8a-dd868b45838f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -73,6 +82,12 @@
     </ClInclude>
     <ClInclude Include="prototype.h">
       <Filter>原型模式</Filter>
+    </ClInclude>
+    <ClInclude Include="Adapter1.h">
+      <Filter>适配器模式\类适配器模式</Filter>
+    </ClInclude>
+    <ClInclude Include="Adapter2.h">
+      <Filter>适配器模式\对象适配器模式</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
