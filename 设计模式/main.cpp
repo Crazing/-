@@ -7,10 +7,17 @@
 #include"Factory2.h"
 #include"Factory3.h"
 #include"builder.h"
+#include"prototype.h"
 using namespace std;
 
 int main()
 {
+    //原型模式
+    prototype* proto1 = new concreateprototype1();
+    proto1->clone();
+    prototype* proto2 = new concreateprototype2();
+    proto2->clone();
+
 	//建造者模式
 	Assemble *assembleA = new AssembleCarA();
 	Factory *factoryA = new Factory(assembleA);

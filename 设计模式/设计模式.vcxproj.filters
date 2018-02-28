@@ -34,10 +34,16 @@
     <Filter Include="建造者模式">
       <UniqueIdentifier>{a2ef43fa-2903-4593-8dec-ad22cf9bf422}</UniqueIdentifier>
     </Filter>
+    <Filter Include="原型模式">
+      <UniqueIdentifier>{67dd9666-ba4c-4c11-bdf3-ddc490a6752e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>main函数</Filter>
+    </ClCompile>
+    <ClCompile Include="prototype.cpp">
+      <Filter>原型模式</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -64,6 +70,9 @@
     </ClInclude>
     <ClInclude Include="builder.h">
       <Filter>建造者模式</Filter>
+    </ClInclude>
+    <ClInclude Include="prototype.h">
+      <Filter>原型模式</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
