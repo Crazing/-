@@ -67,5 +67,4 @@ int main()
     instance4->print();
 
     return 0;
-
 }
