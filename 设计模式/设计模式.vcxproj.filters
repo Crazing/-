@@ -46,6 +46,9 @@
     <Filter Include="适配器模式\对象适配器模式">
       <UniqueIdentifier>{ce2da0a9-9563-418f-8f8a-dd868b45838f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="桥接模式">
+      <UniqueIdentifier>{6fe28020-f344-4586-93c7-5c2d657c8d37}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -88,6 +91,9 @@
     </ClInclude>
     <ClInclude Include="Adapter2.h">
       <Filter>适配器模式\对象适配器模式</Filter>
+    </ClInclude>
+    <ClInclude Include="Bridge.h">
+      <Filter>桥接模式</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

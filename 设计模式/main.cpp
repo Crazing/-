@@ -10,10 +10,19 @@
 #include"prototype.h"
 #include"Adapter1.h"
 #include"Adapter2.h"
+#include"Bridge.h"
 using namespace std;
 
 int main()
 {
+    //桥接模式
+    HandsetBrand *hb;
+    hb = new HandsetBrandM();
+    hb->setHandsetSoft(new HandsetGame());
+    hb->run();
+    hb->setHandsetSoft(new HandsetAddressList());
+    hb->run();
+
 	//适配器模式
 	Target1 *t1 = new Adapter1();
 	t1->Request();
